@@ -7,13 +7,13 @@ public class PessoaJuridica extends POOFundamentosEx1 {//<< vai herdar as infos 
 	private String cnpj;
 	private String nomeFantasia;
 	
-	public PessoaJuridica(String nomeCliente, String endereco, String telefone, String cpf, String nascimento, String rg,
-			String filiacao) {
+	public PessoaJuridica(String nomeCliente, String endereco, String telefone, String cpf, String nascimento, String cnpj, String nomeFantasia) {
 		super(nomeCliente, endereco, telefone, cpf, nascimento);
 		this.cnpj = cnpj;
 		this.nomeFantasia = nomeFantasia;
 	}
-
+	
+	
 	public String getCnpj() {
 		return cnpj;
 	}
